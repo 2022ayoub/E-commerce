@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" 
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title> About </title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+    <%- include('../components/nav.ejs',{page:"about"}) %>
+    <section id="hero-about-page">
+        <h2>#KnowUs</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, possimus. </p>
+    </section>
+    <section id="about-header" class="section-p1">
+        <img src="./img/about/a6.jpg" alt="">
+        <div>
+            <h2>Who We Are ?</h2>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sunt? Veniam quos dolorum vero
+                error debitis harum possimus odit aut eligendi ducimus totam ad dicta perspiciatis nihil,
+                impedit ab maxime placeat cupiditate, nam ipsa quaerat exercitationem necessitatibus. Quod tempora 
+                ducimus totam laboriosam possimus 
+                omnis ea sint numquam neque! Iure quo voluptatem cumque dolores expedita voluptatum voluptate, enim provident iste eum?
+            </p>
+            <abbr title="">
+                Create stunning images with as much or as little control as you like thanks to a choice of basic and Creative modes .
+            </abbr>
+            <br>
+            <br>
+            <marquee bgcolor="#ccc" loop="-1" scrollamount="5" width="100%">
+                Create stunning images with as much or as little control as you like thanks to a choice of basic and Creative modes .
+            </marquee>
+        </div>
+    </section>
+    <section id="about-app" class="section-p1">
+        <h1>Download Our <a href="#">App</a></h1>
+        <div class="video">
+            <video autoplay muted loop src="./img/about/1.mp4"></video>
+        </div>
+    </section>
+    <%- include('../components/feature.ejs') %>
+    <%- include('../components/newsletter.ejs') %>
+    <%- include('../components/footer.ejs') %>   
+    <script src="./js/index.js"></script>
+</body>
+</html>

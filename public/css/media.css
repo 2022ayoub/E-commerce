@@ -1,0 +1,224 @@
+/* ============================= Home page media ==================== */
+@media (max-width:799px){
+    .section-p1 {
+        padding: 40px 40px;
+    }
+    #navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -300px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.6s;
+    }
+    #navbar li{
+        margin-bottom: 25px;
+    }
+    #mobile{
+        display: flex;
+        align-items: center;
+    }
+    #mobile i{
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+    #navbar.active-nav{
+        right: 0px;
+    }
+    #close{
+        display: initial;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 24px;
+    }
+    #lg-bag{
+        display: none;
+    }
+    #hero{
+        height: 70vh;
+        padding: 0 80px;
+        background-position: top 30% right 30%;
+    }
+    #feature{
+        justify-content: center;
+    }
+    #feature .fe-box{
+        margin: 15px 15px;
+    }
+    #product1 .pro-container{
+        justify-content: center;
+    }
+    #banner{
+        height: 25vh;
+    }
+    #sm-banner{
+        gap: 10px;
+    }
+    #sm-banner .banner-box{
+        min-width: 100%;
+        height: 40vh;
+    }
+    #banner3{
+        padding: 0 40px;
+    }
+    #banner3 .banner-box{
+        width: 28%;
+    }
+    #newsletter .form{
+        width: 70%;
+    }
+
+}
+@media (max-width:477px){
+    h1{
+        font-size:38px;
+    }
+    h2{
+        font-size: 32px;
+    }
+    .section-p1{
+        padding: 20px;
+    }
+    #header{
+        padding: 10px 30px;
+    }
+    #hero{
+        padding: 0 20px;
+        background-position: 55%;
+    }
+    #banner{
+        height: 30vh;
+        width: 100%;
+    }
+    #sm-banner{
+        gap: 10px;
+    }
+    #banner3{
+        padding: 0 20px;
+    }
+    #banner3 .banner-box{
+        width:100%;
+    }
+    #newsletter{
+        padding: 40px 20px;
+    }
+    #newsletter .form{
+        width: 100%;
+    }
+}
+/* ====================== media of page product details  ========================= */
+@media (max-width:477px) {
+    
+    #pro-details{
+        display: flex;
+        flex-direction: column;
+    }
+    #pro-details .single-pro-imgs{
+        width: 100%;
+        margin-right: 0px;
+    }
+    #pro-details .single-pro-details{
+        width: 100%;
+    }
+}
+
+/* ====================== blog page ==================== */
+
+@media (max-width:773px){
+    #blog{
+        padding: 100px 20px 0 20px;
+    }
+    #blog .blog-box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #blog .blog-box .blog-img{
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+    #blog .blog-box .blog-details{
+        width: 100%;
+    }
+
+}
+
+/* ====================== about page ==================== */
+
+@media (max-width:773px){
+    #about-header{
+        display: flex;
+        flex-direction: column;
+    }
+    #about-header img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #about-header div{
+        padding-left: 0px;
+    }
+    #about-app .video{
+        width: 100%;
+    }
+}
+
+/* ========================== contact page ===================== */
+
+@media (max-width:799px){
+    #form-details{
+        padding: 40px;
+    }
+    #form-details form{
+        width: 50%;
+    }
+}
+@media (max-width:650px){
+    #contact-details{
+        flex-direction: column;
+    }
+    #contact-details .details{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    #contact-details .map{
+        width: 100%;
+    }
+
+    #form-details{
+        margin: 10px;
+        padding: 30px 10px;
+        flex-wrap: wrap;
+    }
+    #form-details form{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
+
+/* ================================ cart page =============== */
+@media (max-width:750px){
+    #cart-add{
+        flex-direction: column;
+        
+    }
+    #coupon{
+        width: 100%;
+    }
+    #subtotal{
+        width: 100%;
+        padding: 20px;
+    }
+
+}

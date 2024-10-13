@@ -1,0 +1,22 @@
+<section id="header">
+    <a href="#"><img src="./img/logo.png" class="logo"></a>
+    <div>
+        <ul id="navbar">
+            <li><a href="/" class="<%= page=="home"? "active":null %>">Home</a></li>
+            <li><a href="/Shop" class="<%= page=="shop"? "active":null %>">Shop</a></li>
+            <li><a href="/Blog" class="<%= page=="blog"? "active":null %>" >Blog</a></li>
+            <li><a href="/About" class="<%= page=="about"? "active":null %>" >About</a></li>
+            <li><a href="/Contact" class="<%= page=="contact"? "active":null %>">Contact</a></li>
+            <li id="lg-bag">
+                <a href="/Cart" class="<%= page=="cart"? "active":null %>">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                </a>
+            </li>
+            <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+        </ul>
+    </div>
+    <div id="mobile">
+        <a href="/Cart"><i class="fa-solid fa-bag-shopping"></i></a>
+        <i id="bar" class="fas fa-outdent"></i>
+    </div>
+</section>
